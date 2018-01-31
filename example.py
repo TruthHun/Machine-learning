@@ -1,8 +1,3 @@
-# 机器学习(股票)
-基于机器学习算法支持向量机SVM的交易策略
-
-## 源码
-```python
 # coding=utf-8
 from __future__ import print_function, absolute_import, unicode_literals
 from datetime import datetime
@@ -170,7 +165,3 @@ if __name__ == '__main__':
         backtest_initial_cash=10000000,
         backtest_commission_ratio=0.0001,
         backtest_slippage_ratio=0.0001)
-```
-
-## 绩效
-![绩效](attach.png)
